@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+
+p{
+    color: red;
+}
+
+main {
+    margin-top: 1rem;
+}
+
+.paragrafo{
+    border: 1px solid cyan;
+    color: blue;
+    margin-top: 1rem;
+}
+
+#titulo{
+    color: greenyellow;
+    margin-bottom: 1rem;
+}
+
+input[type="password"]{
+    font-size: 3rem;
+}
+
+.login form input{
+    font-size: 2rem;
+    color: red;
+}
+
+.login-form > input{
+    color: #0f0;
+    width: 10rem;
+}
+.cadastro-form input:nth-of-type(2){
+    background: #00f;
+
+}
